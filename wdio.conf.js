@@ -18,7 +18,7 @@ exports.config = {
     //
     specs: [
         './test/smoke/*.js',
-        './test/regression/*.js'
+
     ],
     // Patterns to exclude.
     exclude: [
@@ -217,7 +217,7 @@ exports.config = {
     /**
      * Function to be executed after a test (in Mocha/Jasmine).
      */
-    afterTest: function(test, context, { error, result, duration, passed, retries }) {
+    afterTest: function(test, context, {error,result,duration, passed,retries }) {
         if (!passed) {
             browser.takeScreenshot();
         }
