@@ -40,6 +40,7 @@ describe('Inputs', function () {
             expect(label).toEqual(true);
         });
     });
+
     describe('Placeholders are correct', function (){
 
     });

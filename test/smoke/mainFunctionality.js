@@ -1,0 +1,1 @@
+const sel = require ('../../data/selectors.json');
