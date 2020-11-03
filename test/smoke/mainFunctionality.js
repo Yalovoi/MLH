@@ -2,9 +2,12 @@ const sel = require ('../../data/selectors.json');
 
 describe('Checking the main functionality', function () {
 
-describe('Inputs are displayed', function () {
-    it('TC-014 Name ', function () {
+describe('Happy path', function () {
+
+    it('TC-021 Create button is clickable after 1-4 are filled in ', function () {
         browser.url('');
+
+
         const name = $(sel.name).isDisplayed();
         expect(name).toEqual(true);
      });
