@@ -3,11 +3,12 @@
   "label": ".ant-form-item-required",
   "name": "#name",
   "gender": ".ant-radio",
-  "genderType": ".ant-select-selection-placeholder",
-
+  "genderType": ".ant-radio-wrapper",
   "age": "#age",
   "story": ".ant-select-selector",
+  "storyPlaceholder": ".ant-select-selection-placeholder",
   "storyType": ".ant-select-item-option",
+  "submitButton": "ant-btn",
   "create": ".ant-btn",
   "tryAgain": ".btn-primary"
 }
