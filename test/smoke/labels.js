@@ -46,7 +46,7 @@ describe('My Little Hero', function () {
             const text = $$(sel.label)[1].getAttribute('title');
             expect(text).toEqual(exp.labelGender);
         });
-        it('TC-008 Label for age = 3. How old is your Hero?', function () {
+        it('TC-008 Label for age = 3. How old is your hero?', function () {
             const text = $$(sel.label)[2].getAttribute('title');
             expect(text).toEqual(exp.labelAge);
         });

@@ -8,7 +8,7 @@
   "story": ".ant-select-selector",
   "storyPlaceholder": ".ant-select-selection-placeholder",
   "storyType": ".ant-select-item-option",
-  "submitButton": "ant-btn",
   "create": ".ant-btn",
+  "storyClick": ".ant-select-show-arrow",
   "tryAgain": ".btn-primary"
 }
